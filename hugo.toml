@@ -2,3 +2,7 @@ baseURL = 'https://localhost:1313/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "PaperMod"
+[params]
+    defaultTheme = "light"
+    disableThemeToggle = true
+    customCSS = ["css/custom.css"]
